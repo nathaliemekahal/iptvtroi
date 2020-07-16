@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Title 1",
+        "features":["ft1","ft2","ft3"]
+    },
+    {
+        "title": "Title 2",
+        "features":["ft1","ft2","ft3"]
+    },
+    {
+        "title": "Title 3",
+        "features":["ft1","ft2","ft3"]
+    },
+    {
+        "title": "Title 4",
+        "features":["ft1","ft2","ft3"]
+    }
+]

@@ -1,10 +1,12 @@
 
+.Navbar-class{
+  background-color: #141414;
+  color: aliceblue !important;
+}
 .row-cols-md-4 >*{
   flex: unset !important
 }
-.Navbar-class{
-  background-color: white;
-}
+
 .Col-class{
   margin: 0.5rem !important;
 }
@@ -26,4 +28,8 @@
 .featureswrapper-class{
   margin-left: 0.5rem;
   margin-top: 0.6rem;
+}
+
+.CarouselImage-class{
+  height: 200px;
 }

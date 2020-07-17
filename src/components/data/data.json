@@ -1,18 +1,54 @@
 [
     {
-        "title": "Title 1",
-        "features":["ft1","ft2","ft3"]
+        "title": "One Month",
+        "features": [
+            "SMART TV",
+            "MAG",
+            "ANDROID",
+            "IOS",
+            "12000+ CHANNELS",
+            "3000+ MOVIES",
+            "NETFLIX TV SHOWS",
+            "AVAILABLE 24/7"
+        ]
     },
     {
-        "title": "Title 2",
-        "features":["ft1","ft2","ft3"]
+        "title": "Three Months",
+        "features": [
+            "SMART TV",
+            "MAG",
+            "ANDROID",
+            "IOS",
+            "12000+ CHANNELS",
+            "3000+ MOVIES",
+            "NETFLIX TV SHOWS",
+            "AVAILABLE 24/7"
+        ]
     },
     {
-        "title": "Title 3",
-        "features":["ft1","ft2","ft3"]
+        "title": "Six Months",
+        "features": [
+            "SMART TV",
+            "MAG",
+            "ANDROID",
+            "IOS",
+            "12000+ CHANNELS",
+            "3000+ MOVIES",
+            "NETFLIX TV SHOWS",
+            "AVAILABLE 24/7"
+        ]
     },
     {
-        "title": "Title 4",
-        "features":["ft1","ft2","ft3"]
+        "title": "One Year",
+        "features": [
+            "SMART TV",
+            "MAG",
+            "ANDROID",
+            "IOS",
+            "12000+ CHANNELS",
+            "3000+ MOVIES",
+            "NETFLIX TV SHOWS",
+            "AVAILABLE 24/7"
+        ]
     }
 ]

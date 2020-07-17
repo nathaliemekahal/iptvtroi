@@ -1,49 +1,58 @@
-
-.App{
+.App {
   background-color: #141414;
-  height: 100vh;
+  height: 100%;
 }
-.Navbar-class{
+.Navbar-class {
   background-color: #141414;
+}
+.Navbar-class .nav-link {
   color: aliceblue !important;
 }
-.row-cols-md-4 >*{
-  flex: unset !important
+.row-cols-md-4 > * {
+  flex: unset !important;
 }
 
-.Col-class{
+.Col-class {
   margin: 0.5rem !important;
   padding: 0px !important;
   background-color: antiquewhite;
   border-radius: 6px;
 }
 
-.row.RowContainer-class{
+.row.RowContainer-class {
   flex-wrap: nowrap !important;
   margin-top: 2rem;
 }
-.planwrapper_title{
+.planwrapper_title {
   background-color: #1f7099;
-  display:flex;
+  display: flex;
   justify-content: center;
   color: whitesmoke;
   border-radius: 5px 5px 0 0;
+  padding: 15px;
 }
-.h3_class{
+.h3_class {
   margin-bottom: 0px !important;
 }
-.featureswrapper-class{
+.featureswrapper-class {
   margin-left: 0.5rem;
   margin-top: 0.6rem;
   background-color: antiquewhite;
 }
 
-.CarouselImage-class{
-  height: 20rem;
-  width: 30rem;
+.CarouselImage-class {
+  height: 25rem;
+  width: 41rem;
+  border-radius: 2.5rem;
 }
-
-
+.react-multi-carousel-list {
+  width: 100% !important;
+}
+.absolute-info-class {
+  position: absolute;
+  z-index: 8;
+  left: 20px;
+}
 
 /* .crsl img {
   height: 30rem;
@@ -62,3 +71,19 @@
 .react-multiple-carousel__arrow:focus{
   outline: none !important;
 } */
+
+.Heading-class {
+  border-bottom: rgba(192, 192, 192, 0.1) 1px solid;
+  color: aliceblue;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.marker-class {
+  color: wheat;
+  font-size: 30px;
+}
+.title-class {
+  margin-left: 0.8rem;
+}

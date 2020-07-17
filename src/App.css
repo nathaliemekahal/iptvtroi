@@ -1,4 +1,8 @@
 
+.App{
+  background-color: #141414;
+  height: 100vh;
+}
 .Navbar-class{
   background-color: #141414;
   color: aliceblue !important;
@@ -9,6 +13,9 @@
 
 .Col-class{
   margin: 0.5rem !important;
+  padding: 0px !important;
+  background-color: antiquewhite;
+  border-radius: 6px;
 }
 
 .row.RowContainer-class{
@@ -16,11 +23,11 @@
   margin-top: 2rem;
 }
 .planwrapper_title{
-  background-color: #219BD9;
+  background-color: #1f7099;
   display:flex;
   justify-content: center;
   color: whitesmoke;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
 }
 .h3_class{
   margin-bottom: 0px !important;
@@ -28,8 +35,30 @@
 .featureswrapper-class{
   margin-left: 0.5rem;
   margin-top: 0.6rem;
+  background-color: antiquewhite;
 }
 
 .CarouselImage-class{
-  height: 200px;
+  height: 20rem;
+  width: 30rem;
 }
+
+
+
+/* .crsl img {
+  height: 30rem;
+  width: 12rem;
+}
+.crsl {
+  max-width: 95%;
+}
+
+.react-multiple-carousel__arrow {
+  font-size: 10px !important;
+  background-color: #E50914 !important;
+  min-width:33px !important;
+  min-height:33px !important;
+}
+.react-multiple-carousel__arrow:focus{
+  outline: none !important;
+} */

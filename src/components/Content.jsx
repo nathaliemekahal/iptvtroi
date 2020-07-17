@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {Row,Col,Container} from 'react-bootstrap'
 import plansData from './data/data.json'
+import {Carousel} from 'react-bootstrap'
 
 class Content extends Component {
   render() {

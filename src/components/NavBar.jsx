@@ -6,7 +6,7 @@ class NavBar extends Component {
         return (
           
          <Navbar className='Navbar-class'>
-				<Navbar.Brand href="#home"><img src='whiteLogo.PNG' width='110px'/></Navbar.Brand>
+				<Navbar.Brand href="#home"><img src='whiteLogo.PNG' width='90px'/></Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="mr-auto">

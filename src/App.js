@@ -17,6 +17,7 @@ function App() {
     //ADD THE ICONS TO BUY TO CONNECT TO SOCIAL MEDIA
     //ADD THE INSTRUCTION SECTION
     <div className="App">
+      {console.log("here")}
       <NavBar />
       <Banner
         svgFile={

@@ -13,10 +13,7 @@ class NavBar extends Component {
     return (
       <Navbar className="Navbar-class">
         <Navbar.Brand href="#home">
-          <img
-            src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/114899941_10224241639815004_3866051165616481125_n.jpg?_nc_cat=109&_nc_sid=730e14&_nc_ohc=teIIsES8EskAX_J0gp_&_nc_ht=scontent-cdt1-1.xx&oh=4627dd18e3c114068b551c8b43b5db12&oe=5F3E6712"
-            width="90px"
-          />
+          <img src="https://i.ibb.co/VDqTd9p/white-Logo.png" width="90px" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

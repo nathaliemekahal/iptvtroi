@@ -9,17 +9,16 @@
     "bootstrap": "^4.5.0",
     "bootstrap-icons": "^1.0.0-alpha5",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.2.2",
     "react-dom": "^16.13.1",
     "react-multi-carousel": "^2.5.5",
     "react-scripts": "3.4.1",
-    "serve": "^9.6.0"
+    "serve": "^9.4.0"
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

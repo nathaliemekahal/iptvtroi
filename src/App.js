@@ -9,15 +9,13 @@ import "react-multi-carousel/lib/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import banner from "./components/Banner";
 import Banner from "./components/Banner";
-
+// ADD THE FREE 24 HOURS TEST
+//ADD THE LIST
+//ADD THE ICONS TO BUY TO CONNECT TO SOCIAL MEDIA
+//ADD THE INSTRUCTION SECTION
 function App() {
   return (
-    // ADD THE FREE 24 HOURS TEST
-    //ADD THE LIST
-    //ADD THE ICONS TO BUY TO CONNECT TO SOCIAL MEDIA
-    //ADD THE INSTRUCTION SECTION
     <div className="App">
-      {console.log("here")}
       <NavBar />
       <Banner
         svgFile={

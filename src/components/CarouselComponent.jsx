@@ -45,7 +45,7 @@ class CarouselComponent extends Component {
               max: 1024,
               min: 464,
             },
-            items: 3,
+            items: 1,
             partialVisibilityGutter: 30,
           },
         }}

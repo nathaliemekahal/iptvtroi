@@ -8,7 +8,7 @@ class Content extends Component {
     return (
       <Container>
         {console.log(plansData)}
-        <Row xs={2} md={3} lg={4}>
+        <Row xs={2} md={2} lg={4}>
           {plansData &&
             plansData.map((Plan) => (
               <Col className="Col-class">

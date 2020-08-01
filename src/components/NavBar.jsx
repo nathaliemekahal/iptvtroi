@@ -11,7 +11,10 @@ import {
 class NavBar extends Component {
   render() {
     return (
-      <Navbar className="Navbar-class">
+      <Navbar
+        style={{ position: "fixed", top: "0", width: "100%", zIndex: "3" }}
+        className="Navbar-class"
+      >
         <Navbar.Brand href="#home">
           <img src="https://i.ibb.co/VDqTd9p/white-Logo.png" width="90px" />
         </Navbar.Brand>

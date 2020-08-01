@@ -4,6 +4,7 @@
 }
 .Navbar-class {
   background-color: #141414;
+  position: fixed;
 }
 .Navbar-class .nav-link {
   color: aliceblue !important;

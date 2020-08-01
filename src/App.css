@@ -8,21 +8,21 @@
 .Navbar-class .nav-link {
   color: aliceblue !important;
 }
-.row-cols-md-4 > * {
+/* .row-cols-md-4 > * {
   flex: unset !important;
-}
+} */
 
-.Col-class {
+/* .Col-class {
   margin: 0.5rem !important;
   padding: 0px !important;
   background-color: antiquewhite;
   border-radius: 6px;
-}
+} */
 
-.row.RowContainer-class {
+/* .row.RowContainer-class {
   flex-wrap: nowrap !important;
   margin-top: 2rem;
-}
+} */
 .planwrapper_title {
   background-color: #1f7099;
   display: flex;

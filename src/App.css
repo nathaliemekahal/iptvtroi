@@ -80,3 +80,11 @@
   margin-left: 1rem;
   font-weight: bolder;
 }
+
+@media screen and (max-width: 992px) {
+  .CarouselImage-class {
+    height: 10rem;
+    width: 13rem;
+    border-radius: 2.5rem;
+  }
+}

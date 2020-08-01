@@ -5,7 +5,7 @@ class Banner extends Component {
     return (
       <>
         {this.props.title === "Highlights" && (
-          <div className="Heading-class" style={{ paddingTop: "3rem" }}>
+          <div className="Heading-class" style={{ paddingTop: "5rem" }}>
             {this.props.svgFile}
             <h4 className="title-class">{this.props.title}</h4>
             {console.log("HEHEEH")}

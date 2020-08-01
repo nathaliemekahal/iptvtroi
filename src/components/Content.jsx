@@ -11,7 +11,7 @@ class Content extends Component {
         <Row xs={2} md={2} lg={4}>
           {plansData &&
             plansData.map((Plan) => (
-              <Col className="Col-class">
+              <Col className="Col-class mt-2">
                 {
                   <div className="planwrapper_title">
                     <h4 className="h3_class">{Plan.title}</h4>

@@ -9,7 +9,7 @@ class Circle extends Component {
         <Row
           style={{
             width: "100%",
-            backgroundColor: "blue",
+
             justifyContent: "center",
           }}
         >

@@ -10,11 +10,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import banner from "./components/Banner";
 import Banner from "./components/Banner";
 import ContactUs from "./components/ContactUs";
+import Circle from "./components/Circle";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      <Circle />
       <Banner
         svgFile={
           <svg

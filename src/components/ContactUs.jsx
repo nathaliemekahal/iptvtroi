@@ -5,10 +5,8 @@ class ContactUs extends Component {
     return (
       <>
         <Container className="">
-          <Row>
-            <h5 className="Contact-heading">Email: </h5>
-            <p></p>
-          </Row>
+          <h5 className="Contact-heading">Email: </h5>
+          <p></p>
         </Container>
       </>
     );

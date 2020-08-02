@@ -12,7 +12,7 @@ class CarouselComponent extends Component {
         additionalTransfrom={0}
         arrows
         autoPlay={true}
-        autoPlaySpeed={900}
+        autoPlaySpeed={1000}
         centerMode
         className=""
         dotListClass=""

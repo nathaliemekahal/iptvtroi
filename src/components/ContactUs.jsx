@@ -1,14 +1,10 @@
 import React, { Component } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, List } from "react-bootstrap";
 class ContactUs extends Component {
+  doubleNumbers = (arrayValues) => arrayValues.map((a) => a * 2);
+
   render() {
-    return (
-      <>
-        <Container className="">
-          {/* <h5 className="Contact-heading">Email: </h5> */}
-        </Container>
-      </>
-    );
+    return <>{console.log(this.doubleNumbers([1, 2, 3]))}</>;
   }
 }
 

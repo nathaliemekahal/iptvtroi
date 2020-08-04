@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Circle />
+      {/* <Circle />
       <Banner
         svgFile={
           <svg
@@ -32,9 +32,9 @@ function App() {
           </svg>
         }
         title={"Highlights"}
-      />
+      /> */}
       <CarouselComponent />
-      <Banner
+      {/* <Banner
         svgFile={
           <svg
             width="1em"
@@ -73,7 +73,7 @@ function App() {
         }
         title={"Contact Us "}
       />
-      <ContactUs />
+      <ContactUs /> */}
     </div>
   );
 }

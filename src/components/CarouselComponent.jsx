@@ -2,60 +2,52 @@ import React, { Component } from "react";
 import { Button } from "react-bootstrap";
 import CarouselData from "./data/carouselData.json";
 import CarouselNPM from "react-multi-carousel";
+import Coverflow from "react-coverflow";
 
 // import {Carousel} from 'react-bootstrap'
 
 class CarouselComponent extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      active: 3,
+      ArrayOfImages: [],
+    };
+  }
+  componentDidMount = () => this.changeslide();
+
+  changeslide = () => {
+    setInterval(() => {
+      if (this.state.active === CarouselData.length) {
+        CarouselData[CarouselData.length] = CarouselData[0];
+        this.setState({ active: 0 });
+      } else if (this.state.active !== CarouselData.length) {
+        this.setState({ active: this.state.active + 1 });
+      }
+    }, 1000);
+  };
   render() {
     return (
-      <CarouselNPM
-        additionalTransfrom={0}
-        arrows
-        autoPlay={true}
-        autoPlaySpeed={1000}
-        centerMode
-        className=""
-        dotListClass=""
-        draggable
-        focusOnSelect={false}
-        infinite
-        itemClass=""
-        minimumTouchDrag={80}
-        renderButtonGroupOutside={false}
-        renderDotsOutside={false}
-        responsive={{
-          desktop: {
-            breakpoint: {
-              max: 3000,
-              min: 1024,
-            },
-            items: 1,
-            partialVisibilityGutter: 40,
-          },
-          mobile: {
-            breakpoint: {
-              max: 464,
-              min: 0,
-            },
-            items: 1,
-            partialVisibilityGutter: 30,
-          },
-          tablet: {
-            breakpoint: {
-              max: 1024,
-              min: 464,
-            },
-            items: 1,
-            partialVisibilityGutter: 30,
-          },
-        }}
-        showDots={false}
-        sliderClass=""
-        slidesToSlide={1}
+      <Coverflow
+        width={960}
+        height={400}
+        infiniteScroll={true}
+        displayQuantityOfSide={2}
+        navigation={false}
+        enableHeading={false}
+        active={this.state.active}
       >
         {CarouselData.map((item) => (
-          <div>
+          <div
+            // onClick={() => fn()}
+            // onKeyDown={() => fn()}
+            role="menuitem"
+            tabIndex="0"
+            className="imagesWraaper"
+          >
             <img
+              data-action="http://andyyou.github.io/react-coverflow/"
               className="CarouselImage-class"
               alt="image error "
               src={item.imageURL}
@@ -63,7 +55,7 @@ class CarouselComponent extends Component {
             {/* <Button className="absolute-info-class">hi</Button> */}
           </div>
         ))}
-      </CarouselNPM>
+      </Coverflow>
     );
   }
 }

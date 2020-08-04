@@ -1,5 +1,5 @@
 .App {
-  background-color: #141414;
+  /* background-color: #141414; */
   height: 100%;
 }
 .Navbar-class {
@@ -29,9 +29,8 @@
 }
 
 .CarouselImage-class {
-  height: 25rem;
-  width: 41rem;
-  border-radius: 2.5rem;
+  height: 200px;
+  width: 100%;
 }
 .react-multi-carousel-list {
   width: 100% !important;

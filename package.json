@@ -12,6 +12,7 @@
     "express": "^4.17.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.2.2",
+    "react-coverflow": "^0.2.20",
     "react-dom": "^16.13.1",
     "react-multi-carousel": "^2.5.5",
     "react-scripts": "3.4.1",

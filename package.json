@@ -16,7 +16,7 @@
     "react-dom": "^16.13.1",
     "react-multi-carousel": "^2.5.5",
     "react-scripts": "3.4.1",
-    "serve": "^9.6.0"
+    "serve": "^10.1.2"
   },
   "scripts": {
     "dev": "react-scripts start",
